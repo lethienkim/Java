@@ -1,0 +1,48 @@
+Name: Thienkim Le
+Course: ITSE 2321 Object-Oriented Programming
+Program: Seven
+
+Faculty Number  Old Salary      Raise Percentage Pay Raise       New Salary     
+Faculty Number  52500.00        7.00            3675.00         56175.00       
+Faculty Number  64029.50        7.00            4482.07         68511.57       
+Faculty Number  56000.00        7.00            3920.00         59920.00       
+Faculty Number  50001.00        7.00            3500.07         53501.07       
+Faculty Number  65500.00        7.00            4585.00         70085.00       
+Faculty Number  42800.00        5.50            2354.00         45154.00       
+Faculty Number  45000.50        5.50            2475.03         47475.53       
+Faculty Number  68900.00        7.00            4823.00         73723.00       
+Faculty Number  60000.00        7.00            4200.00         64200.00       
+Faculty Number  59999.94        7.00            4200.00         64199.94       
+Faculty Number  54120.25        7.00            3788.42         57908.67       
+Faculty Number  64100.95        7.00            4487.07         68588.02       
+Faculty Number  44000.50        5.50            2420.03         46420.53       
+Faculty Number  80100.20        4.00            3204.01         83304.21       
+Faculty Number  90000.00        4.00            3600.00         93600.00       
+Faculty Number  41000.00        5.50            2255.00         43255.00       
+Faculty Number  60000.20        7.00            4200.01         64200.21       
+Faculty Number  49999.99        5.50            2750.00         52749.99       
+Faculty Number  55120.25        7.00            3858.42         58978.67       
+Faculty Number  66100.20        7.00            4627.01         70727.21       
+Faculty Number  60500.50        7.00            4235.04         64735.54       
+Faculty Number  72000.00        4.00            2880.00         74880.00       
+Faculty Number  50000.01        7.00            3500.00         53500.01       
+Faculty Number  50000.00        5.50            2750.00         52750.00       
+Faculty Number  80001.75        4.00            3200.07         83201.82       
+Faculty Number  60001.00        7.00            4200.07         64201.07       
+Faculty Number  70000.01        4.00            2800.00         72800.01       
+Faculty Number  70000.00        7.00            4900.00         74900.00       
+Faculty Number  90002.65        4.00            3600.11         93602.76       
+Faculty Number  45000.00        5.50            2475.00         47475.00       
+Faculty Number  120000.00       4.00            4800.00         124800.00      
+Faculty Number  100000.99       4.00            4000.04         104001.03      
+Faculty Number  80002.59        4.00            3200.10         83202.69       
+Faculty Number  75100.19        4.00            3004.01         78104.20       
+Faculty Number  150000.02       4.00            6000.00         156000.02      
+Faculty Number  85000.95        4.00            3400.04         88400.99       
+
+Total Amount of Raises: 132348.59
+Average of Raises: 3676.35
+Total Faculty Payroll Before Raise: 2426884.14
+Total Faculty Payroll After Raise: 2559232.73
+Average Faculty Payroll Before Raise: 67413.45
+Average Faculty Payroll After Raise: 71089.80

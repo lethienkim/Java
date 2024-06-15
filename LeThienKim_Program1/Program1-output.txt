@@ -1,0 +1,11 @@
+PS C:\Users\lethi>  & 'C:\Program Files\Java\jdk-1.8\bin\java.exe' '-cp' 'C:\Users\lethi\AppData\Local\Temp\vscodesws_d8ef6\jdt_ws\jdt.ls-java-project\bin' 'Program1' 
+Name:    Thienkim Le
+Course:  ITSE 2321 Object-Oriented Programming
+Program: One 
+
+Meal Cost:           44.50
+Tax Amount(8.25%):    3.67
+Sub Total:           48.17
+Tip Amount(15%):      7.23
+Total Amount:        55.40
+PS C:\Users\lethi> 

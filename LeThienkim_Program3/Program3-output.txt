@@ -1,0 +1,12 @@
+Name:    Thienkim Le
+Course:  ITSE 2321 Object-Oriented Programming
+Program: Three 
+
+This program uses classes and objects to display employees salaries.
+
+Employee 1: John Doe: Yearly Salary: 34500.00
+Employee 2: Jane Doe: Yearly Salary: 37809.00
+
+Increasing employee salaries by 20%
+Employee 1: John Doe: Yearly Salary: 41400.00
+Employee 2: Jane Doe: Yearly Salary: 45370.80
