@@ -29,4 +29,9 @@ public class Proj10RunnerB implements Proj10X {
     public int getModifiedData() {
         return val + 5;
     }
+
+    @Override
+    public String toString() {
+        return "Proj10RunnerB with value: " + val;
+    }
 }
