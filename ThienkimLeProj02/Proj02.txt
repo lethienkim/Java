@@ -1,0 +1,28 @@
+public class Proj02 {
+    public static void main(String[] args) {
+        // Print the certification message
+        System.out.println("I certify that this program is my own work");
+        System.out.println("and is not the work of others. I agree not");
+        System.out.println("to share my solution with others.");
+        System.out.println("Thienkim Le");
+
+        // Check if there are command-line arguments
+        if (args.length > 0) {
+            int sum = 0;
+            
+            // Loop through the command-line arguments
+            for (String arg : args) {
+                // Print each argument
+                System.out.println(arg);
+
+                // Convert the argument to an integer and add it to the sum
+                sum += Integer.parseInt(arg);
+            }
+
+            // Print the sum
+            System.out.println(sum);
+        } else {
+            System.out.println("No command-line arguments provided.");
+        }
+    }
+}
