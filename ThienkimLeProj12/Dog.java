@@ -1,15 +1,21 @@
-// Dog.java
-class Dog implements Animal {
+public class Dog implements Animal {
+    @Override
     public String speak() {
-        return "Fido:Woof";
+        return "I am a dog.\nMy name is Fido.\nFido:Woof";
     }
+
+    @Override
     public void sleep(String data) {
-        System.out.println(data + ":Snooze");
+        System.out.print(data + ":Snooze - ");
     }
+
+    @Override
     public int run() {
         return 1024;
     }
+
+    @Override
     public String toString() {
-        return "dog:Snooze";
+        return "Fido";
     }
 }

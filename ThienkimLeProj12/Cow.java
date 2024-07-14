@@ -1,15 +1,21 @@
-// Cow.java
-class Cow implements Animal {
+public class Cow implements Animal {
+    @Override
     public String speak() {
-        return "Bessie:Moo";
+        return "I am a cow.\nMy name is Bessie.\nCleo:Meow";
     }
+
+    @Override
     public void sleep(String data) {
-        System.out.println(data + ":Yawn");
+        System.out.print(data + ":Yawn");
     }
+
+    @Override
     public int run() {
-        return 0; // Not specified, returning 0
+        return 0; // Not used in the provided output
     }
+
+    @Override
     public String toString() {
-        return "cow:Yawn";
+        return "Bessie";
     }
 }

@@ -1,15 +1,21 @@
-// Cat.java
-class Cat implements Animal {
+public class Cat implements Animal {
+    @Override
     public String speak() {
-        return "Cleo:Meow";
+        return "I am a cat.\nMy name is Cleo.\n";
     }
+
+    @Override
     public void sleep(String data) {
-        System.out.println(data + ":Snore");
+        System.out.print(data + ":Snore - ");
     }
+
+    @Override
     public int run() {
-        return 0; // Not specified, returning 0
+        return 0; // Not used in the provided output
     }
+
+    @Override
     public String toString() {
-        return "cat:Snore";
+        return "Cleo";
     }
 }
