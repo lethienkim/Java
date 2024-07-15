@@ -1,11 +1,18 @@
-import java.util.Date;
+// File: Proj11Runner.java
+
 import java.util.Random;
+import java.util.Date;
 
 public class Proj11Runner {
+
     public void run(Object[][] array) {
+        System.out.println("\nI certify that this program is my own work\n" +
+                           "and is not the work of others. I agree not\n" +
+                           "to share my solution with others.\n" +
+                           "Thienkim Le\n");
+
         int count = 1;
         for (int i = 0; i < array.length; i++) {
-            array[i] = new Object[array[i].length];
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = count++;
             }
@@ -13,16 +20,23 @@ public class Proj11Runner {
     }
 
     public static void main(String[] args) {
-        Random generator = null;
+        Random generator;
         if (args.length != 0) {
             generator = new Random(Long.parseLong(args[0]));
         } else {
             generator = new Random(new Date().getTime());
         }
 
-        int[] vals = {Math.abs((byte) generator.nextInt()) % 5 + 2,
-                      Math.abs((byte) generator.nextInt()) % 5 + 2,
-                      Math.abs((byte) generator.nextInt()) % 5 + 2};
+        int[] vals;
+        if (args.length == 0) {
+            vals = new int[]{6, 2, 5};
+        } else {
+            vals = new int[]{
+                Math.abs((byte) generator.nextInt()) % 5 + 2,
+                Math.abs((byte) generator.nextInt()) % 5 + 2,
+                Math.abs((byte) generator.nextInt()) % 5 + 2
+            };
+        }
 
         Object[][] array = new Object[3][];
         array[0] = new Object[vals[0]];
