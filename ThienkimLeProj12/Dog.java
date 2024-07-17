@@ -1,7 +1,7 @@
 public class Dog implements Animal {
     @Override
     public String speak() {
-        return "I am a dog.\nMy name is Fido.";
+        return "I am a dog.\nMy name is Fido.\nFido:Woof";
     }
 
     @Override
@@ -11,11 +11,11 @@ public class Dog implements Animal {
 
     @Override
     public int run() {
-        return 1024;
+        return 0;
     }
 
     @Override
     public String toString() {
-        return "Fido";
+        return "Fido: 1024";
     }
 }

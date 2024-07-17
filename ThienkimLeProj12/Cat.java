@@ -16,6 +16,6 @@ public class Cat implements Animal {
 
     @Override
     public String toString() {
-        return "Cleo";
+        return "Cleo:Meow";
     }
 }

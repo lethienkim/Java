@@ -16,11 +16,14 @@ class Proj12{
     System.out.println("=====This line is required=====");
     Animal cat = new Cat();
     Animal dog = new Dog();
-    System.out.println(dog.speak());
-    Animal cow = new Cow();
     System.out.println(cat.speak());
-    System.out.println(dog.run());
+    Animal cow = new Cow();
+    System.out.println(dog.speak());
+    //System.out.println(dog.run());
     System.out.println(cow.speak());
+    System.out.println(cat.toString());
+    System.out.println(dog.toString());
+    System.out.println(cow.toString());
     cat.sleep("cat");
     dog.sleep("dog");
     cow.sleep("cow");

@@ -1,5 +1,6 @@
-public interface Animal{
-  public String speak();
-  public void sleep(String data);
-  public int run();
-}//end interface
+public interface Animal {
+  String speak();
+  void sleep(String data);
+  int run();
+  String toString();
+}

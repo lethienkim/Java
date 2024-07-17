@@ -16,6 +16,6 @@ public class Cow implements Animal {
 
     @Override
     public String toString() {
-        return "Bessie";
+        return "Bessie:Moo";
     }
 }
