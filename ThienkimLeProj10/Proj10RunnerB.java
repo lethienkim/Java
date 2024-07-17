@@ -4,14 +4,10 @@ public class Proj10RunnerB implements Proj10X {
     public Proj10RunnerB(int val) {
         this.val = val;
     }
-    @Override
-    public String toString() {
-        return "Proj10RunnerB with value: " + val;
-    }
 
     @Override
     public int getFirst() {
-        return val-1;
+        return val - 1;
     }
 
     @Override
@@ -21,7 +17,7 @@ public class Proj10RunnerB implements Proj10X {
 
     @Override
     public int getThird() {
-        return val+1;
+        return val + 1;
     }
 
     @Override
@@ -31,7 +27,12 @@ public class Proj10RunnerB implements Proj10X {
 
     @Override
     public int getModifiedData() {
-        return val + 5;
+        return val +1;
     }
 
+    @Override
+    public String toString (){
+        
+        return String.valueOf(val+5);
+    }
 }
