@@ -11,7 +11,7 @@ public class Cow implements Animal {
 
     @Override
     public String run() {
-        return " "; // Not used in the provided output
+        return ""; // Not used in the provided output
     }
 
 }

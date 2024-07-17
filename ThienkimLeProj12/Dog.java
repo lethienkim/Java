@@ -14,7 +14,7 @@ public class Dog implements Animal {
         System.out.println("Cleo:Meow\n"+
                             "Fido: 1024\n"+
                             "Bessie:Moo\n");
-        return " ";
+        return "";
     }
 
     
