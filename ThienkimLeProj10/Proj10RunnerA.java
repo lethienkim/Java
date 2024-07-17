@@ -1,8 +1,24 @@
 public class Proj10RunnerA implements Proj10X {
     private int val;
+    private static boolean firstInstance = true;
 
     public Proj10RunnerA(int val) {
         this.val = val;
+    }
+
+    @Override
+    public String toString() {
+        String result = "";
+        if (firstInstance) {
+            firstInstance = false;
+            result = "I certify that this program is my own work\n" +
+                     "and is not the work of others. I agree not\n" +
+                     "to share my solution with others.\n" +
+                     "Thienkim\n" +
+                     "Le\n";
+        }
+       return val;
+      
     }
 
     @Override
@@ -30,8 +46,4 @@ public class Proj10RunnerA implements Proj10X {
         return val + 5;
     }
 
-    @Override
-    public String toString() {
-        return "Proj10RunnerA with value: " + val;
-    }
 }

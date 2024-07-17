@@ -48,11 +48,9 @@ class Proj10{
     //Display four lines of text on the screen.
     System.out.println("randomData = " + randomData);
     
-    System.out.print(
-             ((Proj10X)var1[0]).getModifiedData() + " ");
+    System.out.print(((Proj10X)var1[0]).getModifiedData() + " ");
     System.out.print(randomData + " ");
-    System.out.println(
-                   ((Proj10X)var1[1]).getModifiedData());
+    System.out.println(((Proj10X)var1[1]).getModifiedData());
 
     System.out.print(((Proj10X)var1[0]).getData() + " ");
     System.out.print(randomData + " ");
