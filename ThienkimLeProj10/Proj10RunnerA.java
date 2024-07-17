@@ -4,7 +4,7 @@ public class Proj10RunnerA implements Proj10X {
 
     public Proj10RunnerA(int val) {
         this.val = val;
-            System.out.println("I certify that this program is my own work\n" +
+            System.out.println("\nI certify that this program is my own work\n" +
                    "and is not the work of others. I agree not\n" +
                    "to share my solution with others.\n" +
                    "Thienkim\n" +
