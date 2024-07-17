@@ -10,12 +10,8 @@ public class Cow implements Animal {
     }
 
     @Override
-    public int run() {
-        return 0; // Not used in the provided output
+    public String run() {
+        return " "; // Not used in the provided output
     }
 
-    @Override
-    public String toString() {
-        return "Bessie:Moo";
-    }
 }

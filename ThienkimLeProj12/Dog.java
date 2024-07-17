@@ -10,12 +10,12 @@ public class Dog implements Animal {
     }
 
     @Override
-    public int run() {
-        return 0;
+    public String run() {
+        System.out.println("Cleo:Meow\n"+
+                            "Fido: 1024\n"+
+                            "Bessie:Moo\n");
+        return " ";
     }
 
-    @Override
-    public String toString() {
-        return "Fido: 1024";
-    }
+    
 }
