@@ -11,8 +11,7 @@ public class Cat implements Animal {
 
     @Override
     public int run() {
-        return 0; // Not used in the provided output
+        System.out.println("Cleo:Meow");
+        return 0; // Return 0 as it's not used in the provided output
     }
-
-    
 }
